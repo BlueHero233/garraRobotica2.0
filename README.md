@@ -14,7 +14,7 @@ O problema é que tanto a montagem, a lista de materiais e a operação do codig
 ### Lista de Materiais
 - 1 Micro servo 9g SG90
 - 3 Motores de passo NEMA 17 42HS40
-- 1 Arduino Uno R3
+- 1 Arduino Uno R3 (Mega?)
 - 1 Shield CNC V3
 - 1 Fonte 12V 3A DC
 - 3 Drivers de motor de passo A4988
@@ -32,12 +32,17 @@ O problema é que tanto a montagem, a lista de materiais e a operação do codig
 - 10 Esferas INOX 6mm
 - 1 Rolamento 606zz
 - 18 Ruelas lisas M4
-- *2 limit switches
+- *3 limit switches
 
 ### Partes Imprimidas
 As partes imprimidas estao inclusas no arquivo compactado *Partes*
 Estao sendo imprimidas com 0.4mm Altura de Camada, 0.4mm Largura de Extrusão, 4 Paredes, 30% Preenchimento Cubico, 5 Camadas superior/inferior, Temperatura de Impressao 215°C, Material PLA, Velocidade 50mm/s
 *É recomendado a opcao de Correções de malha "Maximum Travel Resolution 0.4 - 0.05" , 1.2mm Espessura camada superior/inferior, Direcao de linha Superior Inferior [0,90], Largura da Superficie Superior 0,12 e Quantidade de camadas 1*
+
+### Limit Switches
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/657a3e3d-4c27-44f8-a140-e66b20c6d094)
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/fa8bcd61-e897-4dca-845d-7b8687408236)
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/e15ffbc7-5ce9-410b-9724-3fcfbb4a5db3)
 
 https://www.arduinoecia.com.br/driver-a4988-com-motor-de-passo-nema-17/
 https://www.thingiverse.com/thing:1454048
