@@ -25,11 +25,11 @@ O problema é que tanto a montagem, a lista de materiais e a operação do codig
 - 5 Parafusos Pan Head M4x20mm
 - 1 Haste Rosqueada M4x60mm
 - 1 Haste Rosqueada M4x32mm
-- 2 Parafusos Pan Head M3x20mm
+- 14 Parafusos Pan Head M3x20mm
 - 1 Porca Sextavada Nylon M6
 - 2 Porcas Sextavadas Nylon M3
 - 9 Porcas Sextavadas Nylon M4
-- 25 Esferas INOX 6mm
+- 10 Esferas INOX 6mm
 - 1 Rolamento 606zz
 - 18 Ruelas lisas M4
 - *2 limit switches
@@ -37,7 +37,7 @@ O problema é que tanto a montagem, a lista de materiais e a operação do codig
 ### Partes Imprimidas
 As partes imprimidas estao inclusas no arquivo compactado *Partes*
 Estao sendo imprimidas com 0.4mm Altura de Camada, 0.4mm Largura de Extrusão, 4 Paredes, 30% Preenchimento Cubico, 5 Camadas superior/inferior, Temperatura de Impressao 215°C, Material PLA, Velocidade 50mm/s
-*É recomendado a opcao de Correções de malha*
+*É recomendado a opcao de Correções de malha "Maximum Travel Resolution 0.4 - 0.05" , 1.2mm Espessura camada superior/inferior, Direcao de linha Superior Inferior [0,90], Largura da Superficie Superior 0,12 e Quantidade de camadas 1*
 
 https://www.arduinoecia.com.br/driver-a4988-com-motor-de-passo-nema-17/
 https://www.thingiverse.com/thing:1454048
