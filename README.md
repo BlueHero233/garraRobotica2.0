@@ -26,7 +26,9 @@ O problema é que tanto a montagem, a lista de materiais e a operação do codig
 - 1 Haste Rosqueada M4x60mm
 - 1 Haste Rosqueada M4x32mm
 - 2 Parafusos Pan Head M3x20mm
-- 12 Parafusos Pan Head M3x5mm?
+- 12 Parafusos Pan Head M3x5mm
+- 1 Parafuso M2x5mm
+- 1 Porca Sextavada M2
 - 1 Porca Sextavada Nylon M6
 - 2 Porcas Sextavadas Nylon M3
 - 9 Porcas Sextavadas Nylon M4
