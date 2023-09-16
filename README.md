@@ -36,7 +36,7 @@ O problema é que tanto a montagem, a lista de materiais e a operação do codig
 - 1 Rolamento 606zz
 - 18 Ruelas lisas M4
 - *3 limit switches
-
+- 1 Pinça de microretifica 4mm
 ### Partes Imprimidas
 As partes imprimidas estao inclusas no arquivo compactado *Partes*
 Estao sendo imprimidas com 0.4mm Altura de Camada, 0.4mm Largura de Extrusão, 4 Paredes, 30% Preenchimento Cubico, 5 Camadas superior/inferior, Temperatura de Impressao 215°C, Material PLA, Velocidade 50mm/s
@@ -47,9 +47,25 @@ Estao sendo imprimidas com 0.4mm Altura de Camada, 0.4mm Largura de Extrusão, 4
 ![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/fa8bcd61-e897-4dca-845d-7b8687408236)
 ![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/e15ffbc7-5ce9-410b-9724-3fcfbb4a5db3)
 
+### Shield CNC 
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/c90e725e-827e-48e9-aaea-059acc8c9eba)
+O Shield CNC usa praticamente todos os pinos do Uno, o que dificulta nosso objetivo, e necessario conectar o modulo sem fio do controle no uno, que precisa de 7 fios para funcionar corretamente
+
+### Controle PS2
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/b3732631-9a10-4f62-85f7-056e1779e9f9)
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/06726c2c-2e81-4f99-a468-65765b527c02)
+
+### A4988
+**ATENCAO** Os drivers a4988 possuem um potenciometro, que deve ser manualmente ajustado para limitar a corrente que sera enviada para o motor, ela pode ser lida com um multimetro, negativo no GND e positivo no potenciometro, a leitura deve ser em volts e igual a Imax * 8 * Rcs
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/cfe7fdf1-a19e-4ab4-ae43-654d263139ce)
+
+Imax é a corrente maxima do respectivo motor e Rcs é a resistencia interna do proprio driver 
+![driver-motor-passo-a4988-3](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/e63104f2-378e-4e6a-bdc8-badcfe2ef021)
+
 https://www.arduinoecia.com.br/driver-a4988-com-motor-de-passo-nema-17/
 https://www.thingiverse.com/thing:1454048
 http://www.eezyrobots.it/eba_mk2.html
+https://github.com/SukkoPera/PsxNewLib
 
 https://www.youtube.com/watch?v=vRAaXrJJf6s
 https://www.youtube.com/watch?v=P-hHQdp5Nng
