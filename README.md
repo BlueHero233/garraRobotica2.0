@@ -50,6 +50,8 @@ Estao sendo imprimidas com 0.4mm Altura de Camada, 0.4mm Largura de Extrusão, 4
 ### Shield CNC 
 ![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/c90e725e-827e-48e9-aaea-059acc8c9eba)
 O Shield CNC usa praticamente todos os pinos do Uno, o que dificulta nosso objetivo, e necessario conectar o modulo sem fio do controle no uno, que precisa de 7 fios para funcionar corretamente
+![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/46e3ecd5-383b-4638-a599-0072c0443ce1)
+
 
 ### Controle PS2
 ![image](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/b3732631-9a10-4f62-85f7-056e1779e9f9)
