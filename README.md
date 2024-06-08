@@ -1,6 +1,6 @@
 ## garraRobotica2.0
 ## Garra robótica controlada por controle de ps2 
-A função desse repositorio serve como documentação detalhada do prototipo de garra robotica, para o acompanhamento e familiarização do grbl, como funcionam motores de passo, seus respectivos drivers, como esse codigo é escrito em arduino e como receber o input de um controle de ps2 para movimentar o braço
+A função desse repositorio serve como documentação detalhada do prototipo de garra robotica, como funcionam motores de passo, seus respectivos drivers, como esse codigo é escrito em arduino e como receber o input de um controle de ps2 para movimentar o braço
 
 O braço é uma adaptação feita por *Jacky Le* originalmente por *daGHIZmo* no Thingiverse, que é baseado no braço articulado ABB IRB460
 ![ABB IRB460](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/de3d02c1-07e0-49a4-be0a-f1199ee107cb)
@@ -9,6 +9,7 @@ As alteraçoes incluem a substituição de servo motores MG995 por motores de pa
 ![Driver](https://github.com/BlueHero233/garraRobotica2.0/assets/87818077/fade96de-fefd-489c-bbb5-cf98203a58ac)
 
 O codigo fonte funciona com a biblioteca AccelStepper, que vai controlar a direcao de cada braço dado o movimento analogico dos joysticks do controle.
+E a biblioteca PsxNewLib, talque a p2slib master do Bill Porter nao funcionou em dois controles diferentes é esta deprecada a anos
 O problema é que tanto a montagem, a lista de materiais e a operação do codigo é parcamente documentada, por isso estarei compilando e atulizando todas as informaçãoes possiveis neste repositorio ao decorrer do porjeto
 
 ### Lista de Materiais
